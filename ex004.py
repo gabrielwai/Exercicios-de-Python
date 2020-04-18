@@ -1,0 +1,5 @@
+x = input('Digite algo: ')
+print('O valor digitado é numérico?:',x.isnumeric())
+print('O valor digitado é alfanumérico?:',x.isalnum())
+print('O valor digitado é string?:',x.isalpha())
+print('O valor digitado esta capitalizado?:',x.istitle())
