@@ -1,6 +1,7 @@
 lista = list()
 pares = list()
 ímpares = list()
+#continuar = ''
 
 while True:
     continuar = ''
