@@ -19,7 +19,7 @@ while True:
 
 lista.sort(reverse=True)
 print(f'A quantidade de números digitados foi {quantidade}')
-print(f'A lista preenchida (de forma decrescente) é: {lista}')
+print(f'A lista preenchida (mas de forma decrescente) é: {lista}')
 
 if 5 in lista:
     print(f"O número 5 foi digitado e está na lista na {len(lista)-lista.index(5)-lista.count(5)+1}ª posição (na"
