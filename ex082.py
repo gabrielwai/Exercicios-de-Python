@@ -1,9 +1,9 @@
 lista = list()
 pares = list()
 ímpares = list()
-continuar = ''
 
 while True:
+    continuar = ''
     lista.append(int(input('Digite um número inteiro: ')))
 
     while continuar != 'S' and continuar != 'N':
@@ -15,8 +15,8 @@ while True:
 
     if continuar == 'N':
         break
-    elif continuar == 'S':
-        continuar = ''
+    #elif continuar == 'S':
+        #continuar = ''
 
 for count in range(0, len(lista)):
     if lista[count] % 2 != 0:
