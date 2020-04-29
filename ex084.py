@@ -38,8 +38,8 @@ while True:
         maiorPeso = auxiliar[1]
         #maispesada.append(auxiliar[0])
 
-    print(f'maiorPeso: {maiorPeso:.2f}')
-    print(f'menorPeso: {menorPeso:.2f}')
+    #print(f'maiorPeso: {maiorPeso:.2f}')
+    #print(f'menorPeso: {menorPeso:.2f}')
 
     pessoas.append(auxiliar[:])
     auxiliar.clear()
