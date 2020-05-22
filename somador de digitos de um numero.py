@@ -20,7 +20,7 @@ while fatorial / 10 > 1:
         fatorial /= 10
         count += 1
 count += 1
-print(f'Numero de algarismos de N! = {count}')
+print(f'Número de algarismos de N! = {count}')
 
 fatorial = acumulador
 acumulador = 0
@@ -28,5 +28,5 @@ print(f'Fatorial = {fatorial} ; Acumulador = {acumulador}')
 
 for j in range(1, count+1):
     acumulador += math.floor((fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))) / math.pow(10, j-1))
-    print(f"Soma dos algarismos: {acumulador} ; {math.floor((fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))) / math.pow(10, j-1))}")
+    print(f"Soma dos algarismos: {acumulador} ; {math.floor((fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))) / math.pow(10, j-1))} ; j = {j}")
 print(f"Resultado da soma dos algarismos: {acumulador}")
