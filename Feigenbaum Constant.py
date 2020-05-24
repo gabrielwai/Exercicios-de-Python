@@ -10,6 +10,7 @@ while Xn < 0 or Xn > 1:
         print("Valor fora do intevalo (0 a 1). Tente novamente.")
 
 Xanterior = Xn
-for count in range(1, 10):
-    print(f"Xn+1 = {lanbda * Xanterior * (1 - Xanterior)}")
+print(f"Xn = {Xn}")
+for count in range(1, 32):
+    print(f"Xn+{count} = {lanbda * Xanterior * (1 - Xanterior)}")
     Xanterior = lanbda * Xanterior * (1 - Xanterior)
