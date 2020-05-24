@@ -28,5 +28,11 @@ print(f'Fatorial = {fatorial} ; Acumulador = {acumulador}')
 
 for j in range(1, count+1):
     acumulador += math.floor((fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))) / math.pow(10, j-1))
+
     print(f"Soma dos algarismos: {acumulador} ; {math.floor((fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))) / math.pow(10, j-1))} ; j = {j}")
+
+    print(f"n/10^{j} = {(math.floor(fatorial/math.pow(10, j)))}")
+    print(f"n * 10^{j} = {((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j))}")
+    print(f"n - ((n/10^{j})*10^{j}) = {(fatorial - ((math.floor(fatorial/math.pow(10, j))) * math.pow(10, j)))}")
+
 print(f"Resultado da soma dos algarismos: {acumulador}")
