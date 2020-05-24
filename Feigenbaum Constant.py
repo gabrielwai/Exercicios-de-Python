@@ -17,7 +17,9 @@ periodo = 0
 Xanterior = Xn
 print(f"Xn = {Xn}")
 
-for count in range(1, 1000):
+for count in range(1, 10000):
+    if listaPrincipal.count(Xanterior) > 1: # <<< para quando identifica o ciclo
+        break
     print(f"Xn+{count} = {lanbda * Xanterior * (1 - Xanterior)}")
     Xanterior = lanbda * Xanterior * (1 - Xanterior)
 
