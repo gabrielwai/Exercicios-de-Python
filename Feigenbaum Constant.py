@@ -26,7 +26,7 @@ for count in range(1, 1000):
         if (Xanterior in listaPeriodos) == False:
             listaPeriodos.append(Xanterior)
 
-print(f'Período : {len(listaPeriodos)}')
-print(f"Termos: {listaPeriodos}")
 print(f"lambda: {lanbda}")
 print(f"Xn: {Xn}")
+print(f'Período : {len(listaPeriodos)}')
+print(f"Termos: {listaPeriodos}")
