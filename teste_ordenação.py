@@ -17,4 +17,6 @@ i = 0
 f = 1
 ordenados.append(lista[0])
 while i <= len(lista):
-    if
+    if lista[i+1] < ordenados[0]:
+        for c in range(0, ):
+            ordenados[f] = ordenados[f-1]
