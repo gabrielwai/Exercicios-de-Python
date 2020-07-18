@@ -5,5 +5,6 @@ print("\nSeu nome todo em minúsculo é: {}".format(nome.lower()))
 print("Qtdd de espaços totais: {}".format(nome.count(' ')))
 print('Total de letras (desconsiderando os espaços): {}'.format(len(nome)-nome.count(" ")))
 print('Primeiro nome: {}'.format(nome[:nome.find(' ')]))
+#print(nome.find(' '))
 print('Quantidade de letras que possui o primeiro nome: {}'.format(len(nome[:nome.find(' ')])))
 #nome teste: Wirllbda Olnd  Silva NkbsKj

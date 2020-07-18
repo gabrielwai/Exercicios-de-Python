@@ -18,3 +18,4 @@ del ímpares
 del pares
 print(f'Os números pares digitados foram: {lista[0]}')
 print(f'Os números ímpares digitados foram: {lista[1]}')
+#print(lista)
