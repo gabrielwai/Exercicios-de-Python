@@ -8,9 +8,15 @@ while True:
     else:
         break
 
+print('='*30)
 print(f'O nome do aluno(a) é {aluno["nome"]} e a média é {aluno["média"]}')
 print('A situação é igual a ',end="")
-if aluno["média"] < 7:
-    print('Reprovado(a).')
+
+if aluno["média"] >= 7:
+    aluno["situação"] = 'Aprovado(a)'
+elif 7 > aluno["média"] >= 5:
+    aluno["situação"] = 'Recuperação'
 else:
-    print('Aprovado(a)!')
+    aluno["situação"] = 'Reprovado(a)'
+
+print(f'{aluno["situação"]}.')
